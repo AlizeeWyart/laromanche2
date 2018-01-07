@@ -1,0 +1,117 @@
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+a, a:hover {
+  cursor:pointer;
+  text-decoration: none;
+}
+
+
+nav.navbar {
+  position: fixed;
+  width: 80px;
+  height: 100%;
+  padding:10px;
+  border-radius: 0;
+}
+
+.page-box {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  margin: 0px;
+  padding: 20px;
+  overflow:hidden;
+}
+
+.page-content {
+  background:#F4F4F4;
+  width:100%;
+  height:100%;
+  /*padding:20Px;*/
+  transition:background-image ease-in-out 0.3s;
+}
+
+.cover {
+  background-size: cover !important;
+}
+
+.content {
+
+  padding:20px 20px 20px 100px;
+}
+
+h1.title {
+  color:#1F3F59;
+  margin:4px;
+}
+
+h2.txt-menu {
+  font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px 20px 0 6px;
+    color:white;
+    transition:color ease-in-out 0.3s;
+}
+
+h2.txt-menu:hover {
+  font-weight: 500;
+  color:#C8EFEB;
+}
+
+.flexbox-row {
+  display:flex;
+}
+
+h3.photo-legend {
+    text-transform: uppercase;
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    font-weight: 500;
+    z-index:1;
+    transition:ease-in-out 0.5s;
+}
+
+h3.photo-legend.ombre {
+  color:#C8EFEB;
+  z-index:0;
+}
+
+/* PERSONNALISATION */
+h3.photo-legend.txt1 {
+  bottom: 29px;
+  right: 13px;
+}
+
+h3.photo-legend.txt1.ombre {
+  right:8px;
+  bottom:27px;
+}
+
+h3.photo-legend.txt2 {
+  bottom: 123px;
+  left: 13px;
+}
+
+h3.photo-legend.txt2.ombre {
+  bottom: 120px;
+  left: 17px;
+}
+
+h3.photo-legend.txt3 {
+  bottom: 29px;
+  right: 13px;
+}
+
+h3.photo-legend.txt3.ombre {
+  right:8px;
+  bottom:27px;
+}
+
+.opacity-0 {
+  opacity:0;
+}
